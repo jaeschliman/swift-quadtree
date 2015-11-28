@@ -10,6 +10,8 @@
 		7F8608571C07DF8800C948AF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F8608561C07DF8800C948AF /* AppDelegate.swift */; };
 		7F8608591C07DF8800C948AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F8608581C07DF8800C948AF /* Assets.xcassets */; };
 		7F86085C1C07DF8800C948AF /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7F86085A1C07DF8800C948AF /* MainMenu.xib */; };
+		7F8608641C07DFDE00C948AF /* CirclesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F8608631C07DFDE00C948AF /* CirclesView.swift */; };
+		7F8608661C07E4DD00C948AF /* qtree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F8608651C07E4DD00C948AF /* qtree.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -18,6 +20,8 @@
 		7F8608581C07DF8800C948AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7F86085B1C07DF8800C948AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		7F86085D1C07DF8800C948AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7F8608631C07DFDE00C948AF /* CirclesView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CirclesView.swift; sourceTree = "<group>"; };
+		7F8608651C07E4DD00C948AF /* qtree.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = qtree.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -34,6 +38,7 @@
 		7F86084A1C07DF8800C948AF = {
 			isa = PBXGroup;
 			children = (
+				7F8608651C07E4DD00C948AF /* qtree.swift */,
 				7F8608551C07DF8800C948AF /* quadtree */,
 				7F8608541C07DF8800C948AF /* Products */,
 			);
@@ -51,6 +56,7 @@
 			isa = PBXGroup;
 			children = (
 				7F8608561C07DF8800C948AF /* AppDelegate.swift */,
+				7F8608631C07DFDE00C948AF /* CirclesView.swift */,
 				7F8608581C07DF8800C948AF /* Assets.xcassets */,
 				7F86085A1C07DF8800C948AF /* MainMenu.xib */,
 				7F86085D1C07DF8800C948AF /* Info.plist */,
@@ -128,7 +134,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7F8608641C07DFDE00C948AF /* CirclesView.swift in Sources */,
 				7F8608571C07DF8800C948AF /* AppDelegate.swift in Sources */,
+				7F8608661C07E4DD00C948AF /* qtree.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
