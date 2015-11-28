@@ -31,7 +31,7 @@ protocol P {
 
 extension Circle : P {}
 
-private let max = 3
+private let max = 5
 
 struct Node {
     let width  : CGFloat
@@ -106,7 +106,9 @@ struct Node {
                 //c
                 c.insert(item)
             } else {
-                items.append(item)
+                a.insert(item)
+                c.insert(item)
+                //items.append(item)
             }
         } else if f.leftEdge > center.x {
             if f.bottomEdge < center.y {
@@ -116,10 +118,26 @@ struct Node {
                 //d
                 d.insert(item)
             } else {
-                items.append(item)
+                b.insert(item)
+                d.insert(item)
+                //items.append(item)
             }
         } else {
-            items.append(item)
+            if f.bottomEdge < center.y {
+                //a b
+                a.insert(item)
+                b.insert(item)
+            } else if f.topEdge > center.y {
+                // c d
+                c.insert(item)
+                d.insert(item)
+            } else {
+                //items.append(item)
+                a.insert(item)
+                b.insert(item)
+                c.insert(item)
+                d.insert(item)
+            }
         }
         
         

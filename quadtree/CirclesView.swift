@@ -168,7 +168,7 @@ class CirclesView : NSView {
     let qtree   = QTree()
     
     override func awakeFromNib() {
-        let count = 100
+        let count = 360
         let max_radius : Int32 = 15
         let min_radius : Int32 = 5
         
