@@ -186,6 +186,8 @@ class CirclesView : NSView {
             circles.append(c)
         }
         
+        circles.append(Circle(radius: 35, position: CGPoint(x:bounds.midX, y:bounds.midY), delta: CGPointZero))
+        
         let timer = NSTimer(timeInterval: 0.03, target: self, selector: "tick", userInfo: nil, repeats: true)
         NSRunLoop.currentRunLoop().addTimer(timer, forMode: NSDefaultRunLoopMode)
     }
